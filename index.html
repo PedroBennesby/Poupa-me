@@ -8,12 +8,12 @@
   </head>
   <body>
     <div class="inputs">
-      <input type="number" name="valor1" id="valor1" />
-      <input type="number" name="valor2" id="valor2" />
-      <button onclick="soma()">submit</button>
+      <label for="valor1">Qual o seu salário bruto?</label>
+      <input type="number" name="valor1" id="salario-bruto" />
+      <button onclick="calcSalario()">Enviar</button>
       <br />
       <h1>
-        Seu resultado é:
+        Seu salário líquido é:
         <div id="resultado"></div>
       </h1>
     </div>
